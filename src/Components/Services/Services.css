@@ -1,0 +1,19 @@
+.service{
+    transition: background 0.3s;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+}
+.service:hover{
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+.service:hover a{
+    color: var(--semi-grey);
+}

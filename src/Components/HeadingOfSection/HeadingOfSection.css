@@ -1,0 +1,16 @@
+.hos{
+    margin: 20px 0;
+}
+.section-heading{
+    color: var(--semi-grey);
+    text-transform: uppercase;
+}
+.heading-span{
+    width: 100px;
+    height: 3px;
+    background-color: var(--main-color);
+}
+.learn-more{
+    text-transform: uppercase;
+    color: var(--white);
+}

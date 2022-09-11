@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// Components
+import Navigationbar from './Components/Navigationbar/Navigationbar'
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import Resume from './Components/Resume/Resume';
+import HeadingOfSection from './Components/HeadingOfSection/HeadingOfSection';
+import Services from './Components/Services/Services';
+import Portfolio from './Components/Portfolio/Portfolio';
+import Testimonials from './Components/Testimonials/Testimonials';
+import Contact from './Components/Contact/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Navigationbar ownerName='Zayat'/>
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='/About' element={<About/>}/>
+      <Route path='/Resume' element={<Resume/>}/>
+      <Route path='/Services' element={<Services/>}/>
+      <Route path='/Portfolio' element={<Portfolio/>}/>
+      <Route path='/Testimonials' element={<Testimonials/>}/>
+      <Route path='/Contact' element={<Contact/>}/>
+      <Route path='/HeadingOfSection' element={<HeadingOfSection/>}/>
+    </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

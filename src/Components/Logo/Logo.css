@@ -1,0 +1,17 @@
+._logo{
+    line-height: 1;
+    font-weight: 500;
+    display: grid;
+    place-items: center;
+}
+.owner-name,.site-type{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.owner-name{
+    color: var(--main-color);
+}
+.site-type{
+    color: var(--hover-color);
+    font-size: 11px;
+}

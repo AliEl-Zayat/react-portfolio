@@ -1,0 +1,45 @@
+.contact-form,.socials{
+    margin-top: 50px;
+}
+.contact-form input{
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+.my-btn{
+    margin-top: 30px;
+    background-color: var(--main-color);
+    padding: 30px 0;
+}
+.my-btn:hover{
+    background-color: var(--hover-color) !important;
+}
+.social-contact{
+    width: 400px;
+    height: 50px;
+    margin: 20px 0;
+    color: #fff !important;
+    padding: 0 20px;
+    background: linear-gradient(to left , #4a4a4b , #4a4a4b) no-repeat;
+    background-size: 0%;
+    background-color: #121212;
+    transition: all 0.5s ease;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.social-contact p{
+    margin: 0;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+.social-contact:hover{
+    background-size: 100%;
+}
+.social-contact:hover p{
+    color: var(--main-color);
+}
