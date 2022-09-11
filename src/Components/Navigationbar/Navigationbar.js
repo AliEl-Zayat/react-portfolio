@@ -7,14 +7,13 @@ import Logo from '../Logo/Logo'
 import './Navigationbar.css'
 function Navigationbar(props) {
   return (
-    <Navbar expand="lg" fixed='top' variant="dark">
+    <Navbar collapseOnSelect='true' expand="lg" fixed='top' variant="dark">
       <Container>
         <Navbar.Brand className="" href="#home">
           <Logo ownerName={props.ownerName}/>
         </Navbar.Brand>
-
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+        <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className="ms-auto">
             <NavLink to="/" className='nav-link'>Home</NavLink>
             <NavLink to="/About" className='nav-link'>About</NavLink>

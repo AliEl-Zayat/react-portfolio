@@ -1,5 +1,5 @@
-import React,{useState,useEffect,useRef} from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import React,{useState,useEffect} from 'react'
+import {  Container } from 'react-bootstrap'
 import './Portfolio.css'
 import HeadingOfSection from '../HeadingOfSection/HeadingOfSection'
 import axios from 'axios'
@@ -27,10 +27,21 @@ const Portfolio = () => {
         }}
         modules={[Pagination]}
         className="mySwiper"
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          950:{
+              slidesPerView: 3,
+              spaceBetween: 40
+
+            }
+        }}
       >
             {
                 projects.map((project)=>(
-                    <SwiperSlide key={project.id}>
+                    <SwiperSlide key={project.id} className='port-swiper'>
                         <a href={project.url} target='_blank' rel='noreferrer'>
                         <div className="project">
                         <div className="project-img">

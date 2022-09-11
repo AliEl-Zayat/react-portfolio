@@ -1,8 +1,8 @@
-import React, { useState, useEffect,useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Testimonials.css'
 import HeadeingOfSection from '../HeadingOfSection/HeadingOfSection'
 import axios from 'axios';
-import { Col, Container, Row } from 'react-bootstrap';
+import {  Container } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -26,10 +26,21 @@ const Testimonials = () => {
         }}
         modules={[Pagination]}
         className="mySwiper"
+        breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20
+            },
+            950:{
+                slidesPerView: 3,
+                spaceBetween: 40
+
+              }
+          }}
       >
             {
                 testimonials.map((testimonial) => (
-                    <SwiperSlide key={testimonial.id}>
+                    <SwiperSlide className='testi-slide' key={testimonial.id}>
                         <div className="testimonial">
                             <div className="user">
                                 <div className="user-img-wrapper">
