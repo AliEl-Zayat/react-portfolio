@@ -11,7 +11,6 @@ function Navigationbar(props) {
   const navTogglerFun = () => {
     if( window.innerWidth <= 767 ){
       document.getElementById('rere').click();
-      console.log("test")
     }
   }
   return (
