@@ -13,6 +13,14 @@ const Resume = (props) => {
             setSkill(res.data.skills);
         })
     },[])
+    const widthApplied = () => {
+        document.querySelectorAll('#percent').forEach(ele => {
+            ele.classList.remove('active');
+        });
+    }
+    useEffect(() => {
+        widthApplied();
+    });
   return (
     <Container>
     <HeadingOfSection sectionName='Skills' sectionPara="LEARN MORE ABOUT MY SKILLS"/>
@@ -25,10 +33,9 @@ const Resume = (props) => {
                             <i className={skill.icon}></i>
                             {/* <span dangerouslySetInnerHTML={{__html: skill.icon}}></span> */}
                             <div className="probar">
-                                
-                                <span id="percent" className="skill-progbar" style={{transition:'width 0.3s ease-in-out',width: skill.percentage}}></span>
+                                <span id="percent" className="skill-progbar active" style={{transition:'1s 0.5s width ease-in',width: skill.percentage}}></span>
                             </div>
-                            <span className="floatingpercent" id="FloatingPercentage">{skill.percentage}</span>
+                            {/* <span className="floatingpercent" id="FloatingPercentage">{skill.percentage}</span> */}
                 </div>
             </Col>
             )

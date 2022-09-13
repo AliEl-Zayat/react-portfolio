@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -13,6 +13,8 @@ function Navigationbar(props) {
       document.getElementById('rere').click();
     }
   }
+  const [counter, setCounter] = useState(false);
+  
   return (
     <Navbar collapseOnSelect='true' expand={"md"} fixed='top' variant="dark">
       <Container>
@@ -23,7 +25,7 @@ function Navigationbar(props) {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <NavLink to="/" className='nav-link' onClick={navTogglerFun}>Home</NavLink>
-            <NavLink to="/About" className='nav-link' onClick={navTogglerFun}>About</NavLink>
+            <NavLink to="/About" className='nav-link' id='aboutt' onClick={navTogglerFun}>About</NavLink>
             <NavLink to="/Resume" className='nav-link' onClick={navTogglerFun}>Resume</NavLink>
             <NavLink to="/Services" className='nav-link' onClick={navTogglerFun}>Services</NavLink>
             <NavLink to="/Portfolio" className='nav-link' onClick={navTogglerFun}>Portfolio</NavLink>

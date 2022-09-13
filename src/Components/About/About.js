@@ -1,12 +1,12 @@
 import { Container } from "@mui/system";
 import "./About.css";
-import React from "react";
+import React,{useEffect} from "react";
 import HeadingOfSection from "../HeadingOfSection/HeadingOfSection";
 import { Row, Col } from "react-bootstrap";
 import profilePicture from "./images/IMG_1103.JPG";
 import {FaLockOpen,FaUserCheck,FaHeadset,FaLaughBeam} from 'react-icons/fa'
 const About = () => {
-  const counters = () => {
+  const counterss = () => {
     let valueDisplays = document.querySelectorAll('.nums');
     let interval = 1000;
     valueDisplays.forEach((valueDisplay) =>{
@@ -22,7 +22,9 @@ const About = () => {
       },duration)
     })
   }
-  counters();
+  useEffect(() => {
+    counterss();
+  },[]);
   return (
     <Container>
       <HeadingOfSection sectionName="About" sectionPara="LEARN MORE ABOUT ME" />
@@ -117,7 +119,7 @@ const About = () => {
           <h3 className="nums text-white" data-val='30'>
             0
           </h3>
-          <p className="accent-clr">Happy Supported</p>
+          <p className="accent-clr" id="happSup">Happy Supported</p>
         </div>
         </Col>
       </Row>
