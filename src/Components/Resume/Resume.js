@@ -19,9 +19,8 @@ const Resume = (props) => {
     <Row>
     {
         skills.map((skill) => (
-            <>
-            <Col lg='6' md='6'> 
-                <div className="skill" key={skill.id}>
+            <Col lg='6' md='6' key={skill.id}> 
+                <div className="skill">
                             <h4 className="skill-title text-white">{skill.language}</h4>
                             <i className={skill.icon}></i>
                             {/* <span dangerouslySetInnerHTML={{__html: skill.icon}}></span> */}
@@ -32,7 +31,6 @@ const Resume = (props) => {
                             <span className="floatingpercent" id="FloatingPercentage">{skill.percentage}</span>
                 </div>
             </Col>
-            </>
             )
             )
         }

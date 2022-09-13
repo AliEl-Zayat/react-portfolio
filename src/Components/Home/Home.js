@@ -21,9 +21,6 @@ const Home = () => {
         'El-Zayat',
         2000, // Waits 2s
         'Ali Shireef El-Zayat', // Types 'Three' without deleting 'Two'
-        () => {
-          console.log('Done typing!'); // Place optional callbacks anywhere in the array
-        }
       ]}
       wrapper="h1"
       className='landing-heading'
