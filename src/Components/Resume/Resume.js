@@ -16,10 +16,11 @@ const Resume = (props) => {
     const widthApplied = () => {
         document.querySelectorAll('#percent').forEach(ele => {
             ele.classList.remove('active');
+            console.log('test')
         });
     }
     useEffect(() => {
-        widthApplied();
+        widthApplied()
     });
   return (
     <Container>
