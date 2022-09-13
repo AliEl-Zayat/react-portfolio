@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
+import { Container } from "@mui/system";
 import { FaWhatsapp,FaPhoneAlt,FaFacebook,FaLinkedin } from "react-icons/fa";
 import HeadeingOfSection from '../HeadingOfSection/HeadingOfSection'
 import './Contact.css'

@@ -1,7 +1,8 @@
 import React,{useState,useEffect} from 'react'
 import HeadingOfSection from '../HeadingOfSection/HeadingOfSection';
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import axios from 'axios';
+import { Container } from "@mui/system";
 import './Services.css'
 const Services = () => {
   const [services, setService] = useState([]);

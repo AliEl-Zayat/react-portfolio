@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './Testimonials.css'
 import HeadeingOfSection from '../HeadingOfSection/HeadingOfSection'
 import axios from 'axios';
-import {  Container } from 'react-bootstrap';
+import { Container } from "@mui/system";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

@@ -4,10 +4,13 @@
     position: relative;
     z-index: 2;
 }
+.navbar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .nav-link.active,.nav-link:hover{
     color: var(--main-color) !important;
 }
 .nav-link{
     color: var(--hover-color) !important;
-
 }

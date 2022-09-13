@@ -8,6 +8,12 @@ import Logo from '../Logo/Logo'
 import './Navigationbar.css'
 
 function Navigationbar(props) {
+  const navTogglerFun = () => {
+    if( window.innerWidth <= 767 ){
+      document.getElementById('rere').click();
+      console.log("test")
+    }
+  }
   return (
     <Navbar collapseOnSelect='true' expand={"md"} fixed='top' variant="dark">
       <Container>
@@ -17,13 +23,13 @@ function Navigationbar(props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" id='rere'/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <NavLink to="/" className='nav-link' onClick={() => document.getElementById('rere').click()}>Home</NavLink>
-            <NavLink to="/About" className='nav-link' onClick={() => document.getElementById('rere').click()}>About</NavLink>
-            <NavLink to="/Resume" className='nav-link' onClick={() => document.getElementById('rere').click()}>Resume</NavLink>
-            <NavLink to="/Services" className='nav-link' onClick={() => document.getElementById('rere').click()}>Services</NavLink>
-            <NavLink to="/Portfolio" className='nav-link' onClick={() => document.getElementById('rere').click()}>Portfolio</NavLink>
-            <NavLink to="/Testimonials" className='nav-link' onClick={() => document.getElementById('rere').click()}>Testimonials</NavLink>
-            <NavLink to="/Contact" className='nav-link' onClick={() => document.getElementById('rere').click()}>Contact</NavLink>
+            <NavLink to="/" className='nav-link' onClick={navTogglerFun}>Home</NavLink>
+            <NavLink to="/About" className='nav-link' onClick={navTogglerFun}>About</NavLink>
+            <NavLink to="/Resume" className='nav-link' onClick={navTogglerFun}>Resume</NavLink>
+            <NavLink to="/Services" className='nav-link' onClick={navTogglerFun}>Services</NavLink>
+            <NavLink to="/Portfolio" className='nav-link' onClick={navTogglerFun}>Portfolio</NavLink>
+            <NavLink to="/Testimonials" className='nav-link' onClick={navTogglerFun}>Testimonials</NavLink>
+            <NavLink to="/Contact" className='nav-link' onClick={navTogglerFun}>Contact</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
