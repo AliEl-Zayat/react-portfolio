@@ -10,12 +10,14 @@ import Services from './Components/Services/Services';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Contact from './Components/Contact/Contact';
+import Canaves from './Components/Canaves/Canaves';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 const App = () => {
   return (
     <BrowserRouter>
-      <Navigationbar ownerName='Zayat'/>
+      {/* <Navigationbar ownerName='Zayat'/> */}
+      <Canaves ownerName='Zayat'/>
     <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/About' element={<About/>}/>

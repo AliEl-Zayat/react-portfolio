@@ -11,9 +11,12 @@
     -o-transition: background 0.3s;
 }
 .service:hover{
-    background-color: var(--main-color);
+    background-color: var(--hover-color);
     cursor: pointer;
 }
 .service:hover a{
-    color: var(--semi-grey);
+    color: #fff;
+}
+.service:hover p{
+    color: #fff !important;
 }

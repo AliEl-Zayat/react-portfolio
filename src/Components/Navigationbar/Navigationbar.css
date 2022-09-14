@@ -14,3 +14,16 @@
 .nav-link{
     color: var(--hover-color) !important;
 }
+
+.btn-close{
+    filter: invert(1) grayscale(100%) brightness(200%);
+    -webkit-filter: invert(1) grayscale(100%) brightness(200%);
+}
+@media screen and (max-width:575px) {
+    .offcanvas-body{
+        background-color: #000000;
+    }
+    .offcanvas-header{
+        background-color: #000000;
+    }
+}

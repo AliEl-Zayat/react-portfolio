@@ -33,7 +33,7 @@ const Portfolio = () => {
             spaceBetween: 20
           },
           950:{
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 40
 
             }
@@ -49,6 +49,8 @@ const Portfolio = () => {
                         </div>
                         <div className="project-texts">
                         <h3>{project.title}</h3>
+                        <p className='text-white-50'>{project.brief}</p>
+                        <p className='accent-clr'>{project.used}</p>
                         </div>
                         </div>
                         </a>

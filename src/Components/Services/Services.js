@@ -24,8 +24,8 @@ const Services = () => {
                 <div className="vec-holder">
                   <img src={service.image} width='200px' height='200px' alt="" />
                 </div>
-                <a href={service.title} className='accent-clr text-decoration-none fs-3'>{service.title}</a>
-                <p className='lh-lg'>{service.brief}</p>
+                <a href={service.title} className='accent-clr text-decoration-none fs-3 service-link'>{service.title}</a>
+                <p className='lh-lg text-white-50'>{service.brief}</p>
                 </div>
               </Col>
             ))
