@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // Components
-import Navigationbar from './Components/Navigationbar/Navigationbar'
+// import Navigationbar from './Components/Navigationbar/Navigationbar'
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Resume from './Components/Resume/Resume';
@@ -13,6 +13,7 @@ import Contact from './Components/Contact/Contact';
 import Canaves from './Components/Canaves/Canaves';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import TimeLine from './Components/TimeLine/TimeLine';
 const App = () => {
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ const App = () => {
       <Route path='/Testimonials' element={<Testimonials/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/HeadingOfSection' element={<HeadingOfSection/>}/>
+      <Route path='/TimeLine' element={<TimeLine/>}/>
     </Routes>
     </BrowserRouter>
   )

@@ -20,6 +20,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-type-animation": "^2.1.1",
+    "react-vertical-timeline-component": "^3.5.2",
     "reactstrap": "^9.1.4",
     "swiper": "^8.3.2",
     "web-vitals": "^2.1.4"

@@ -5,6 +5,7 @@ import HeadingOfSection from '../HeadingOfSection/HeadingOfSection'
 import axios from 'axios'
 import { Col, Row } from 'react-bootstrap'
 import {FaBookReader,FaSwimmingPool,FaCode,FaGamepad} from 'react-icons/fa'
+import TimeLine from '../TimeLine/TimeLine'
 const Resume = (props) => {
     const [skills, setSkill] = useState([]);
     useEffect(()=>{
@@ -43,6 +44,8 @@ const Resume = (props) => {
         }
     </Row>
     <Row>
+    <HeadingOfSection className='my-5' sectionName='Hoppies' sectionPara="LEARN MORE ABOUT MY Hoppies"/>
+
         <Col lg='3' md='6'>
         <div className="interest text-white">
             <FaBookReader className='interesticon'/>
@@ -68,6 +71,8 @@ const Resume = (props) => {
                 </div>
         </Col>
     </Row>
+    <HeadingOfSection className='my-5' sectionName='Education' sectionPara="LEARN MORE ABOUT MY Education"/>
+    <TimeLine/>
     </Container>
   )
 }

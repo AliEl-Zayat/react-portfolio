@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
+import { Col, Row } from 'react-bootstrap';
 
 const Portfolio = () => {
     const [projects, setProject] = useState([]);
@@ -19,46 +20,27 @@ const Portfolio = () => {
   return (
     <Container>
         <HeadingOfSection sectionName='Portfolio' sectionPara='Here is some of my  projects'/>
-        <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-        breakpoints={{
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 20
-          },
-          950:{
-              slidesPerView: 2,
-              spaceBetween: 40
-
-            }
-        }}
-      >
+        <Row>
             {
                 projects.map((project)=>(
-                    <SwiperSlide key={project.id} className='port-swiper'>
+                    <Col lg='6'sm='12' key={project.id}>
                         <a href={project.url} target='_blank' rel='noreferrer'>
                         <div className="project">
                         <div className="project-img">
                         <img src={project.image} alt="" className='img-fluid'/>
                         </div>
-                        <div className="project-texts">
-                        <h3>{project.title}</h3>
-                        <p className='text-white-50'>{project.brief}</p>
-                        <p className='accent-clr'>{project.used}</p>
+                        <div className="project-texts px-5">
+                        <h3 className='text-center text-uppercase'>{project.title}</h3>
+                        <p className='accent-clr text-center text-capitalize'>{project.brief}</p>
+                        <p className='accent-clr text-center'>{project.used}</p>
                         </div>
                         </div>
                         </a>
 
-                    </SwiperSlide>
+                    </Col>
                 ))
             }
-        </Swiper>
+        </Row>
     </Container>
   )
 }

@@ -83,87 +83,98 @@
     "projects":[
     {
         "id":1,
-        "image":"./imgs/projects/1stapp.png",
-        "title":"Cracked Pizza",
-        "url":"https://cracked-pizza.vercel.app/",
-        "brief":"a clent asked me for doing a psd to html/css with bootstrap and aked for a vanilla navbar i decided give him both version in the same website",
-        "used":"HTML5 - CSS3 - Bootstrap - Babel Javascript - Fontawesome"
-    },{
-        "id":2,
-        "image":"./imgs/projects/2ndapp.png",
-        "title":"Captain Coils Ecommerce App",
-        "url":"https://ccoils.vercel.app/",
-        "brief":"a clent asked me for E-Commerce app for his hand made products without functionalty just to show contacts and products",
-        "used":"HTML5 - CSS3 - Bootstrap - Fontawesome"
-    },{
-        "id":3,
-        "image":"./imgs/projects/3rdapp.png",
-        "title":"Figma Dashboard",
-        "url":"https://figma-free-dashboard.vercel.app/",
-        "brief":"my course mates asked for a dashboard design to-do in a meeting to do something like a revision for html css designs",
-        "used":"HTML5 - CSS3 - Fontawesome"
-    },{
-        "id":4,
-        "image":"./imgs/projects/4thapp.png",
-        "title":"Bondi Web Template",
-        "url":"https://z-ayat.github.io/Bondii/",
-        "brief":"this design is created by ElZeroWebSchool Youtube Channel and i created it with my own method",
-        "used":"HTML5 - CSS3 - Bootstrap - Fontawesome"
-    },{
-        "id":5,
-        "image":"./imgs/projects/3col-app.png",
-        "title":"Responsive Three Column Landing",
-        "url":"https://z-ayat.github.io/3-column-preview-card-component-main/",
-        "brief":"was my first challenge at frontend mentor with css3 grids",
-        "used":"HTML5 - CSS3 - CSS Grid"
-    },{
-        "id":6,
-        "image":"./imgs/projects/chat-sim-app.png",
-        "title":"A chat simulator app",
-        "url":"https://z-ayat.github.io/Chat-app-CSS-illustration-solution/",
-        "brief":"Chat app website with a simulator text input in the landing",
-        "used":"HTML5 - CSS3"
-    },{
-        "id":7,
-        "image":"./imgs/projects/fylo-app.jpg",
-        "title":"Responsive front-end mentor Fylo Challenge",
-        "url":"https://z-ayat.github.io/fylo-landing-page-with-two-column-layout-master/",
-        "brief":"was a challenge at frontend mentor",
-        "used":"HTML5 - CSS3 - CSS Grid - Flexbox - Mobile-first Workflow"
-    },{
-        "id":8,
-        "image":"./imgs/projects/Huddle-app.jpg",
-        "title":"Responsive front-end mentor Huddle Challenge",
-        "url":"https://z-ayat.github.io/Huddle-landing-page-with-alternating-feature-blocks-challenge-hub/",
-        "brief":"was a challenge at frontend mentor",
-        "used":"HTML5 - CSS3 - CSS Grid - Flexbox - Mobile-first Workflow"
-    },{
-        "id":9,
-        "image":"./imgs/projects/kaff-real-project.png",
-        "title":"Kaaf Real Estates Full Wep-page",
-        "url":"https://z-ayat.github.io/Kaaf-Home",
-        "brief":"a real real estates company website",
-        "used":"HTML5 - CSS3 - CSS Grid - Flexbox"
-    },{
-        "id":10,
         "image":"./imgs/projects/nft-app.png",
         "title":"NFT Ownership landing page",
         "url":"https://z-ayat.github.io/NFT-FEMC/",
         "brief":"was a challenge at frontend mentor",
         "used":"HTML5 - CSS3 - CSS Grid - Flexbox"
-    },{
-        "id":11,
-        "image":"./imgs/projects/prod-ads.png",
-        "title":"A product landing page",
-        "url":"https://z-ayat.github.io/clipboard-landing-page/",
-        "brief":"product Landing",
-        "used":"HTML5 - CSS3"
-    },{
-        "id":12,
+    },
+    {
+        "id":2,
         "image":"./imgs/projects/profile-app.png",
         "title":"profile tracking landing page",
         "url":"https://z-ayat.github.io/profile-card-component-main/",
         "brief":"Profile process tracking web page",
+        "used":"HTML5 - CSS3"
+    },
+    {
+        "id":3,
+        "image":"./imgs/projects/chat-sim-app.png",
+        "title":"A chat simulator app",
+        "url":"https://z-ayat.github.io/Chat-app-CSS-illustration-solution/",
+        "brief":"Chat app website with a simulator text input in the landing",
+        "used":"HTML5 - CSS3"
+    },
+    {
+        "id":4,
+        "image":"./imgs/projects/2ndapp.png",
+        "title":"Captain Coils Ecommerce App",
+        "url":"https://ccoils.vercel.app/",
+        "brief":"a clent asked me for E-Commerce app for his hand made products without functionalty just to show contacts and products",
+        "used":"HTML5 - CSS3 - Bootstrap - Fontawesome"
+    },
+    {
+        "id":5,
+        "image":"./imgs/projects/3rdapp.png",
+        "title":"Figma Dashboard",
+        "url":"https://figma-free-dashboard.vercel.app/",
+        "brief":"my course mates asked for a dashboard design to-do in a meeting to do something like a revision for html css designs",
+        "used":"HTML5 - CSS3 - Fontawesome"
+    },
+    {
+        "id":6,
+        "image":"./imgs/projects/4thapp.png",
+        "title":"Bondi Web Template",
+        "url":"https://z-ayat.github.io/Bondii/",
+        "brief":"this design is created by ElZeroWebSchool Youtube Channel and i created it with my own method",
+        "used":"HTML5 - CSS3 - Bootstrap - Fontawesome"
+    },
+    {
+        "id":7,
+        "image":"./imgs/projects/3col-app.png",
+        "title":"Responsive Three Column Landing",
+        "url":"https://z-ayat.github.io/3-column-preview-card-component-main/",
+        "brief":"was my first challenge at frontend mentor with css3 grids",
+        "used":"HTML5 - CSS3 - CSS Grid"
+    },
+    {
+        "id":8,
+        "image":"./imgs/projects/fylo-app.jpg",
+        "title":"Responsive front-end mentor Fylo Challenge",
+        "url":"https://z-ayat.github.io/fylo-landing-page-with-two-column-layout-master/",
+        "brief":"was a challenge at frontend mentor",
+        "used":"HTML5 - CSS3 - CSS Grid - Flexbox - Mobile-first Workflow"
+    },
+    {
+        "id":9,
+        "image":"./imgs/projects/Huddle-app.jpg",
+        "title":"Responsive front-end mentor Huddle Challenge",
+        "url":"https://z-ayat.github.io/Huddle-landing-page-with-alternating-feature-blocks-challenge-hub/",
+        "brief":"was a challenge at frontend mentor",
+        "used":"HTML5 - CSS3 - CSS Grid - Flexbox - Mobile-first Workflow"
+    },
+    {
+        "id":10,
+        "image":"./imgs/projects/kaff-real-project.png",
+        "title":"Kaaf Real Estates Full Wep-page",
+        "url":"https://z-ayat.github.io/Kaaf-Home",
+        "brief":"a real real estates company website",
+        "used":"HTML5 - CSS3 - CSS Grid - Flexbox"
+    },
+    {
+        "id":11,
+        "image":"./imgs/projects/1stapp.png",
+        "title":"Cracked Pizza",
+        "url":"https://cracked-pizza.vercel.app/",
+        "brief":"a clent asked me for doing a psd to html/css with bootstrap and aked for a vanilla navbar i decided give him both version in the same website",
+        "used":"HTML5 - CSS3 - Bootstrap - Babel Javascript - Fontawesome"
+    },
+    {
+        "id":12,
+        "image":"./imgs/projects/prod-ads.png",
+        "title":"A product landing page",
+        "url":"https://z-ayat.github.io/clipboard-landing-page/",
+        "brief":"product Landing",
         "used":"HTML5 - CSS3"
     }
 ],
