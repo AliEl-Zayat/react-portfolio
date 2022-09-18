@@ -17,7 +17,9 @@ function Canaves(props) {
             {['sm'].map((expand) => (
                 <Navbar key={expand} variant='dark'  expand={expand} fixed='top'>
                     <Container fluid>
-                        <Navbar.Brand to="/"><Logo ownerName={props.ownerName} /></Navbar.Brand>
+                        <Navbar.Brand to="/"><NavLink to='/' className='nav-link'><Logo ownerName={props.ownerName} /></NavLink>
+                            
+                            </Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}

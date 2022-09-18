@@ -31,6 +31,7 @@ const Services = () => {
             ))
           }
         </Row>
+        <span className='py-5 w-100 d-block'></span>
     </Container>
   )
 }
