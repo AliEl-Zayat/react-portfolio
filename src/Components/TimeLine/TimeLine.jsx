@@ -8,7 +8,7 @@ const TimeLine = () => {
 <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: 'var(--main-color)', color: '#121212' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2021 - present"
     iconStyle={{ background: 'var(--main-color)', color: '#fff' }}
@@ -23,36 +23,36 @@ const TimeLine = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2019 - 2020"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: '#121212', color: 'var(--main-color)' }}
     icon={<MdSchool />}
   >
-    <h3 className="vertical-timeline-element-title accent-clr">Arduino Multi -Tasking Armed Robot </h3>
-    <h4 className="vertical-timeline-element-subtitle accent-clr">C++ Arduino</h4>
-    <p className='accent-clr'>
+    <h3 className="vertical-timeline-element-title text-black">Arduino Multi -Tasking Armed Robot </h3>
+    <h4 className="vertical-timeline-element-subtitle text-black">C++ Arduino</h4>
+    <p className='text-black'>
       Creative Direction, Mechanics , Visual Capture ,Fully Functional
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2019 - 2020"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: '#121212', color: 'var(--main-color)' }}
     icon={<AiFillStar />}
   >
-    <h3 className="vertical-timeline-element-title accent-clr">Oracle DB for student</h3>
-    <h4 className="vertical-timeline-element-subtitle accent-clr">Cloud Orcale Database</h4>
-    <p className='accent-clr'>
+    <h3 className="vertical-timeline-element-title text-black">Oracle DB for student</h3>
+    <h4 className="vertical-timeline-element-subtitle text-black">Cloud Orcale Database</h4>
+    <p className='text-black'>
       Cloud Platform , Database
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2018 - 2019"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: '#121212', color: 'var(--main-color)' }}
     icon={<AiFillStar />}
   >
-    <h3 className="vertical-timeline-element-title accent-clr">Database Management Application</h3>
-    <h4 className="vertical-timeline-element-subtitle accent-clr">C# with SQL</h4>
-    <p className='accent-clr'>
+    <h3 className="vertical-timeline-element-title text-black">Database Management Application</h3>
+    <h4 className="vertical-timeline-element-subtitle text-black">C# with SQL</h4>
+    <p className='text-black'>
       Visual Design , Graphical User Interface , Database
     </p>
   </VerticalTimelineElement>

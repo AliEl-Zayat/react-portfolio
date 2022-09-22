@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import { Col, Row } from 'react-bootstrap';
+import { Fade } from 'react-awesome-reveal';
 const Testimonials = () => {
     const [testimonials, setTestimonial] = useState([]);
     useEffect(() => {
@@ -39,26 +40,29 @@ const Testimonials = () => {
                     {
                         testimonials.map((testimonial) => (
                             <Col className='' key={testimonial.id}>
-                                <div className="testimonial">
-                                    <div className="user">
-                                        <div className="user-img-wrapper">
-                                            <img src={testimonial.image} alt="" />
+                                <Fade cascade direction='left' triggerOnce='true'>
+                                    <div className="testimonial">
+                                        <div className="user">
+                                            <div className="user-img-wrapper">
+                                                <img src={testimonial.image} alt="" />
+                                            </div>
+                                            <div className="d-flex align-items-center gap-2">
+                                                <h4>{testimonial.number}</h4>
+                                                <p className='text-black-50'>~{testimonial.name}</p>
+                                            </div>
                                         </div>
-                                        <div className="d-flex align-items-center gap-2">
-                                            <h4>{testimonial.number}</h4>
-                                            <p className='text-black-50'>~{testimonial.name}</p>
-                                        </div>
+                                        <p className="message">{testimonial.message}</p>
+                                        <p className="text-black-50 time">{testimonial.time}</p>
                                     </div>
-                                    <p className="message">{testimonial.message}</p>
-                                    <p className="text-black-50 time">{testimonial.time}</p>
-                                </div>
+                                </Fade>
+
                             </Col>
                         ))
                     }
                 </Row>
             </Container>
         )
-        
+
     }
     else {
         return (

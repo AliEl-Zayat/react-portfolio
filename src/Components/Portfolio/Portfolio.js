@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import { Col, Row } from 'react-bootstrap';
-
+import { Fade } from 'react-awesome-reveal';
 const Portfolio = () => {
     const [projects, setProject] = useState([]);
     useEffect(() => {
@@ -24,6 +24,7 @@ const Portfolio = () => {
             {
                 projects.map((project)=>(
                     <Col lg='6'sm='12' key={project.id}>
+                        <Fade cascade direction='up' triggerOnce='true'>
                         <a href={project.url} target='_blank' rel='noreferrer'>
                         <div className="project">
                         <div className="project-img">
@@ -36,7 +37,7 @@ const Portfolio = () => {
                         </div>
                         </div>
                         </a>
-
+                    </Fade>
                     </Col>
                 ))
             }
