@@ -19,11 +19,20 @@
     filter: invert(1) grayscale(100%) brightness(200%);
     -webkit-filter: invert(1) grayscale(100%) brightness(200%);
 }
+.offcanvas.offcanvas-end.show{
+    width: 100%;
+}
 @media screen and (max-width:575px) {
     .offcanvas-body{
         background-color: #000000;
     }
     .offcanvas-header{
         background-color: #000000;
+    }
+    .nav-link{
+        display: flex !important;
+        width: 100%;
+        justify-content: center !important;
+        margin-bottom: 30px;
     }
 }
