@@ -160,9 +160,16 @@
         "url":"https://z-ayat.github.io/Kaaf-Home",
         "brief":"a real real estates company website",
         "used":"HTML5 - CSS3 - CSS Grid - Flexbox"
+    },{
+        "id":11,
+        "image":"./imgs/projects/kafv2.png",
+        "title":"Kaaf Real Estates Full Wep-page V2",
+        "url":"https://industrial-portfolio.vercel.app/",
+        "brief":"a real real estates company website",
+        "used":"React JS - Swiper - MUI - React-BootStrap"
     },
     {
-        "id":11,
+        "id":12,
         "image":"./imgs/projects/1stapp.png",
         "title":"Cracked Pizza",
         "url":"https://cracked-pizza.vercel.app/",
@@ -170,7 +177,7 @@
         "used":"HTML5 - CSS3 - Bootstrap - Babel Javascript - Fontawesome"
     },
     {
-        "id":12,
+        "id":13,
         "image":"./imgs/projects/prod-ads.png",
         "title":"A product landing page",
         "url":"https://z-ayat.github.io/clipboard-landing-page/",
