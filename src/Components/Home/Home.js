@@ -33,8 +33,8 @@ const Home = () => {
               cursor={true}
             />
             <p className="landing-para">
-              i'm a React.JS-
-              <span className="underlined">Front-End Developer</span>
+              i'm a React.JS
+              <span className="underlined"> Front-End Developer</span>
             </p>
           </div>
           <div className="landing-icons d-flex gap-4">
