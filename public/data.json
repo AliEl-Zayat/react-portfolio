@@ -1,226 +1,232 @@
 {
-    "skills": [
+  "skills": [
     {
-        "id": 1,
-        "language": "HTML & HTML5",
-        "percentage": "99%",
-        "icon": "fa-brands fa-html5"
+      "id": 1,
+      "language": "HTML & HTML5",
+      "percentage": "99%",
+      "icon": "fa-brands fa-html5"
     },
     {
-        "id": 2,
-        "language": "CSS & CSS3",
-        "percentage": "85%",
-        "icon": "fa-brands fa-css3"
+      "id": 2,
+      "language": "CSS & CSS3",
+      "percentage": "85%",
+      "icon": "fa-brands fa-css3"
     },
     {
-        "id": 3,
-        "language": "Javascript",
-        "percentage": "70%",
-        "icon": "fa-brands fa-js"
+      "id": 3,
+      "language": "Javascript",
+      "percentage": "70%",
+      "icon": "fa-brands fa-js"
     },
     {
-        "id": 4,
-        "language": "React JS",
-        "percentage": "80%",
-        "icon": "fa-brands fa-react"
+      "id": 4,
+      "language": "React JS",
+      "percentage": "70%",
+      "icon": "fa-brands fa-react"
     },
     {
-        "id": 5,
-        "language": "PHP",
-        "percentage": "0%",
-        "icon": "fa-brands fa-php"
+      "id": 5,
+      "language": "PHP",
+      "percentage": "10%",
+      "icon": "fa-brands fa-php"
     },
     {
-        "id": 6,
-        "language": "mySQL",
-        "percentage": "0%",
-        "icon": "fa-solid fa-database"
+      "id": 6,
+      "language": "mySQL",
+      "percentage": "20%",
+      "icon": "fa-solid fa-database"
     },
     {
-        "id": 7,
-        "language": "Git & Github",
-        "percentage": "80%",
-        "icon": "fa-solid fa-code-branch"
+      "id": 7,
+      "language": "Git & Github",
+      "percentage": "80%",
+      "icon": "fa-solid fa-code-branch"
     }
-],
-    "services":[
+  ],
+  "services": [
     {
-        "id":1,
-        "image":"./imgs/Create-CV.svg",
-        "title":"Courses Online",
-        "brief":"If you want to learn Front end , Back end developer in 4 months, send me message"
+      "id": 1,
+      "image": "./imgs/Create-CV.svg",
+      "title": "Courses Online",
+      "brief": "If you want to learn Front end , Back end developer in 4 months, send me message"
     },
     {
-        "id":2,
-        "image":"./imgs/Freelancing-Website.svg",
-        "title":"Freelance Websites",
-        "brief":"If you need to make websites send me message on mobile number (WhatsApp)"
+      "id": 2,
+      "image": "./imgs/Freelancing-Website.svg",
+      "title": "Freelance Websites",
+      "brief": "If you need to make websites send me message on mobile number (WhatsApp)"
     },
     {
-        "id":3,
-        "image":"./imgs/Programming-Advice.svg",
-        "title":"Programming advice",
-        "brief":"If you need any programming advice contact me"
+      "id": 3,
+      "image": "./imgs/Programming-Advice.svg",
+      "title": "Programming advice",
+      "brief": "If you need any programming advice contact me"
     },
     {
-        "id":4,
-        "image":"./imgs/Web-Interview.svg",
-        "title":"Web interview",
-        "brief":"If you need to do an interview like company interviews, Contact me"
+      "id": 4,
+      "image": "./imgs/Web-Interview.svg",
+      "title": "Web interview",
+      "brief": "If you need to do an interview like company interviews, Contact me"
     },
     {
-        "id":5,
-        "image":"./imgs/Technical-Support.svg",
-        "title":"Technical support",
-        "brief":"If you have a issue , bug and error , contact me and i will help you"
+      "id": 5,
+      "image": "./imgs/Technical-Support.svg",
+      "title": "Technical support",
+      "brief": "If you have a issue , bug and error , contact me and i will help you"
     },
     {
-        "id":6,
-        "image":"./imgs/Create-CV.svg",
-        "title":"Create CV, Portfolio",
-        "brief":"help to make a CV , Online Portfolio for company"
-    }],
-    "projects":[
-    {
-        "id":1,
-        "image":"./imgs/projects/nft-app.png",
-        "title":"NFT Ownership landing page",
-        "url":"https://z-ayat.github.io/NFT-FEMC/",
-        "brief":"was a challenge at frontend mentor",
-        "used":"HTML5 - CSS3 - CSS Grid - Flexbox"
-    },
-    {
-        "id":2,
-        "image":"./imgs/projects/profile-app.png",
-        "title":"profile tracking landing page",
-        "url":"https://z-ayat.github.io/profile-card-component-main/",
-        "brief":"Profile process tracking web page",
-        "used":"HTML5 - CSS3"
-    },
-    {
-        "id":3,
-        "image":"./imgs/projects/chat-sim-app.png",
-        "title":"A chat simulator app",
-        "url":"https://z-ayat.github.io/Chat-app-CSS-illustration-solution/",
-        "brief":"Chat app website with a simulator text input in the landing",
-        "used":"HTML5 - CSS3"
-    },
-    {
-        "id":4,
-        "image":"./imgs/projects/2ndapp.png",
-        "title":"Captain Coils Ecommerce App",
-        "url":"https://ccoils.vercel.app/",
-        "brief":"a clent asked me for E-Commerce app for his hand made products without functionalty just to show contacts and products",
-        "used":"HTML5 - CSS3 - Bootstrap - Fontawesome"
-    },
-    {
-        "id":5,
-        "image":"./imgs/projects/3rdapp.png",
-        "title":"Figma Dashboard",
-        "url":"https://figma-free-dashboard.vercel.app/",
-        "brief":"my course mates asked for a dashboard design to-do in a meeting to do something like a revision for html css designs",
-        "used":"HTML5 - CSS3 - Fontawesome"
-    },
-    {
-        "id":6,
-        "image":"./imgs/projects/4thapp.png",
-        "title":"Bondi Web Template",
-        "url":"https://z-ayat.github.io/Bondii/",
-        "brief":"this design is created by ElZeroWebSchool Youtube Channel and i created it with my own method",
-        "used":"HTML5 - CSS3 - Bootstrap - Fontawesome"
-    },
-    {
-        "id":7,
-        "image":"./imgs/projects/3col-app.png",
-        "title":"Responsive Three Column Landing",
-        "url":"https://z-ayat.github.io/3-column-preview-card-component-main/",
-        "brief":"was my first challenge at frontend mentor with css3 grids",
-        "used":"HTML5 - CSS3 - CSS Grid"
-    },
-    {
-        "id":8,
-        "image":"./imgs/projects/fylo-app.jpg",
-        "title":"Responsive front-end mentor Fylo Challenge",
-        "url":"https://z-ayat.github.io/fylo-landing-page-with-two-column-layout-master/",
-        "brief":"was a challenge at frontend mentor",
-        "used":"HTML5 - CSS3 - CSS Grid - Flexbox - Mobile-first Workflow"
-    },
-    {
-        "id":9,
-        "image":"./imgs/projects/Huddle-app.jpg",
-        "title":"Responsive front-end mentor Huddle Challenge",
-        "url":"https://z-ayat.github.io/Huddle-landing-page-with-alternating-feature-blocks-challenge-hub/",
-        "brief":"was a challenge at frontend mentor",
-        "used":"HTML5 - CSS3 - CSS Grid - Flexbox - Mobile-first Workflow"
-    },
-    {
-        "id":10,
-        "image":"./imgs/projects/kaff-real-project.png",
-        "title":"Kaaf Real Estates Full Wep-page",
-        "url":"https://z-ayat.github.io/Kaaf-Home",
-        "brief":"a real real estates company website",
-        "used":"HTML5 - CSS3 - CSS Grid - Flexbox"
-    },{
-        "id":11,
-        "image":"./imgs/projects/kafv2.png",
-        "title":"Kaaf Real Estates Full Wep-page V2",
-        "url":"https://industrial-portfolio.vercel.app/",
-        "brief":"a real real estates company website",
-        "used":"React JS - Swiper - MUI - React-BootStrap"
-    },
-    {
-        "id":12,
-        "image":"./imgs/projects/1stapp.png",
-        "title":"Cracked Pizza",
-        "url":"https://cracked-pizza.vercel.app/",
-        "brief":"a clent asked me for doing a psd to html/css with bootstrap and aked for a vanilla navbar i decided give him both version in the same website",
-        "used":"HTML5 - CSS3 - Bootstrap - Babel Javascript - Fontawesome"
-    },
-    {
-        "id":13,
-        "image":"./imgs/projects/prod-ads.png",
-        "title":"A product landing page",
-        "url":"https://z-ayat.github.io/clipboard-landing-page/",
-        "brief":"product Landing",
-        "used":"HTML5 - CSS3"
+      "id": 6,
+      "image": "./imgs/Create-CV.svg",
+      "title": "Create CV, Portfolio",
+      "brief": "help to make a CV , Online Portfolio for company"
     }
-],
-"testimonials":[
+  ],
+  "projects": [
     {
-        "id":1,
-        "image":"./imgs/testis/ahmed.png",
-        "number":"+2010xxxxxxxx"
-        ,"name":"Ahmed",
-        "message":"You helped me very well in my career",
-        "time":"11:11 am"
-    },{
-        "id":2,
-        "image":"./imgs/testis/yousef.png",
-        "number":"+2010xxxxxxxx"
-        ,"name":"Yousef Abdelrazik",
-        "message":"من احسن الناس اللي اشتغلت معاها انجاز العمل ف الوقت المحدد على اكمل وجه والدقة في تنفيذ  و بالتوفيق",
-        "time":"10:25 am"
-    },{
-        "id":3,
-        "image":"./imgs/testis/sara.png",
-        "number":"+2010xxxxxxxx"
-        ,"name":"Sara Mounir",
-        "message":"realy thanks for your time and your effort helping us to get motivated",
-        "time":"12:25 am"
-    },{
-        "id":4,
-        "image":"./imgs/testis/wael.png",
-        "number":"+2010xxxxxxxx"
-        ,"name":"Wael Sedik",
-        "message":"Thanks for delivering the project before the agreed time",
-        "time":"05:07 pm"
-    },{
-            "id":5,
-            "image":"./imgs/testis/waheed.png",
-            "number":"+2010xxxxxxxx"
-            ,"name":"Waheed Noureldin",
-            "message":"i liked the time we spent on the project together liked how are u thinking and the creative solutions u always get. <3",
-            "time":"05:07 pm"
+      "id": 1,
+      "image": "./imgs/projects/nft-app.png",
+      "title": "NFT Ownership landing page",
+      "url": "https://z-ayat.github.io/NFT-FEMC/",
+      "brief": "was a challenge at frontend mentor",
+      "used": "HTML5 - CSS3 - CSS Grid - Flexbox"
+    },
+    {
+      "id": 2,
+      "image": "./imgs/projects/profile-app.png",
+      "title": "profile tracking landing page",
+      "url": "https://z-ayat.github.io/profile-card-component-main/",
+      "brief": "Profile process tracking web page",
+      "used": "HTML5 - CSS3"
+    },
+    {
+      "id": 3,
+      "image": "./imgs/projects/chat-sim-app.png",
+      "title": "A chat simulator app",
+      "url": "https://z-ayat.github.io/Chat-app-CSS-illustration-solution/",
+      "brief": "Chat app website with a simulator text input in the landing",
+      "used": "HTML5 - CSS3"
+    },
+    {
+      "id": 4,
+      "image": "./imgs/projects/2ndapp.png",
+      "title": "Captain Coils Ecommerce App",
+      "url": "https://ccoils.vercel.app/",
+      "brief": "a clent asked me for E-Commerce app for his hand made products without functionalty just to show contacts and products",
+      "used": "HTML5 - CSS3 - Bootstrap - Fontawesome"
+    },
+    {
+      "id": 5,
+      "image": "./imgs/projects/3rdapp.png",
+      "title": "Figma Dashboard",
+      "url": "https://figma-free-dashboard.vercel.app/",
+      "brief": "my course mates asked for a dashboard design to-do in a meeting to do something like a revision for html css designs",
+      "used": "HTML5 - CSS3 - Fontawesome"
+    },
+    {
+      "id": 6,
+      "image": "./imgs/projects/4thapp.png",
+      "title": "Bondi Web Template",
+      "url": "https://z-ayat.github.io/Bondii/",
+      "brief": "this design is created by ElZeroWebSchool Youtube Channel and i created it with my own method",
+      "used": "HTML5 - CSS3 - Bootstrap - Fontawesome"
+    },
+    {
+      "id": 7,
+      "image": "./imgs/projects/3col-app.png",
+      "title": "Responsive Three Column Landing",
+      "url": "https://z-ayat.github.io/3-column-preview-card-component-main/",
+      "brief": "was my first challenge at frontend mentor with css3 grids",
+      "used": "HTML5 - CSS3 - CSS Grid"
+    },
+    {
+      "id": 8,
+      "image": "./imgs/projects/fylo-app.jpg",
+      "title": "Responsive front-end mentor Fylo Challenge",
+      "url": "https://z-ayat.github.io/fylo-landing-page-with-two-column-layout-master/",
+      "brief": "was a challenge at frontend mentor",
+      "used": "HTML5 - CSS3 - CSS Grid - Flexbox - Mobile-first Workflow"
+    },
+    {
+      "id": 9,
+      "image": "./imgs/projects/Huddle-app.jpg",
+      "title": "Responsive front-end mentor Huddle Challenge",
+      "url": "https://z-ayat.github.io/Huddle-landing-page-with-alternating-feature-blocks-challenge-hub/",
+      "brief": "was a challenge at frontend mentor",
+      "used": "HTML5 - CSS3 - CSS Grid - Flexbox - Mobile-first Workflow"
+    },
+    {
+      "id": 10,
+      "image": "./imgs/projects/kaff-real-project.png",
+      "title": "Kaaf Real Estates Full Wep-page",
+      "url": "https://z-ayat.github.io/Kaaf-Home",
+      "brief": "a real real estates company website",
+      "used": "HTML5 - CSS3 - CSS Grid - Flexbox"
+    },
+    {
+      "id": 11,
+      "image": "./imgs/projects/kafv2.png",
+      "title": "Kaaf Real Estates Full Wep-page V2",
+      "url": "https://industrial-portfolio.vercel.app/",
+      "brief": "a real real estates company website",
+      "used": "React JS - Swiper - MUI - React-BootStrap"
+    },
+    {
+      "id": 12,
+      "image": "./imgs/projects/1stapp.png",
+      "title": "Cracked Pizza",
+      "url": "https://cracked-pizza.vercel.app/",
+      "brief": "a clent asked me for doing a psd to html/css with bootstrap and aked for a vanilla navbar i decided give him both version in the same website",
+      "used": "HTML5 - CSS3 - Bootstrap - Babel Javascript - Fontawesome"
+    },
+    {
+      "id": 13,
+      "image": "./imgs/projects/prod-ads.png",
+      "title": "A product landing page",
+      "url": "https://z-ayat.github.io/clipboard-landing-page/",
+      "brief": "product Landing",
+      "used": "HTML5 - CSS3"
     }
-]
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "image": "./imgs/testis/ahmed.png",
+      "number": "+2010xxxxxxxx",
+      "name": "Ahmed",
+      "message": "You helped me very well in my career",
+      "time": "11:11 am"
+    },
+    {
+      "id": 2,
+      "image": "./imgs/testis/yousef.png",
+      "number": "+2010xxxxxxxx",
+      "name": "Yousef Abdelrazik",
+      "message": "من احسن الناس اللي اشتغلت معاها انجاز العمل ف الوقت المحدد على اكمل وجه والدقة في تنفيذ  و بالتوفيق",
+      "time": "10:25 am"
+    },
+    {
+      "id": 3,
+      "image": "./imgs/testis/sara.png",
+      "number": "+2010xxxxxxxx",
+      "name": "Sara Mounir",
+      "message": "realy thanks for your time and your effort helping us to get motivated",
+      "time": "12:25 am"
+    },
+    {
+      "id": 4,
+      "image": "./imgs/testis/wael.png",
+      "number": "+2010xxxxxxxx",
+      "name": "Wael Sedik",
+      "message": "Thanks for delivering the project before the agreed time",
+      "time": "05:07 pm"
+    },
+    {
+      "id": 5,
+      "image": "./imgs/testis/waheed.png",
+      "number": "+2010xxxxxxxx",
+      "name": "Waheed Noureldin",
+      "message": "i liked the time we spent on the project together liked how are u thinking and the creative solutions u always get. <3",
+      "time": "05:07 pm"
+    }
+  ]
 }
