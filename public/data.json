@@ -185,6 +185,14 @@
       "url": "https://z-ayat.github.io/clipboard-landing-page/",
       "brief": "product Landing",
       "used": "HTML5 - CSS3"
+    },
+    {
+      "id": 14,
+      "image": "./imgs/projects/todo-chakra.png",
+      "title": "Chakra-UI Todo-App",
+      "url": "https://chakra-ui-todo.vercel.app/",
+      "brief": "React.Js and Chakra UI React-App",
+      "used": "React.js ChakraUI"
     }
   ],
   "testimonials": [
