@@ -193,6 +193,14 @@
       "url": "https://chakra-ui-todo.vercel.app/",
       "brief": "React.Js and Chakra UI React-App",
       "used": "React.js ChakraUI"
+    },
+    {
+      "id": 15,
+      "image": "./imgs/projects/scss-ecommerce.png",
+      "title": "ShopHub E-Commerce",
+      "url": "https://scss-ecommerce.vercel.app/",
+      "brief": "that`s my first deployed E-commerce app with react/redux/scss",
+      "used": "React.js SCSS Redux"
     }
   ],
   "testimonials": [
