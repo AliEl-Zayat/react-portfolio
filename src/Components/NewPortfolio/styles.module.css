@@ -22,10 +22,10 @@
   z-index: 1001;
   position: relative;
   z-index: 9990;
-  padding: 1rem 1.2rem;
+  padding: 1.5rem;
   border-radius: 16px;
   background-color: #fff;
-  width: 50%;
+  width: 80%;
 }
 .headingOfModal {
   position: relative;
@@ -34,12 +34,16 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
+  color: #000;
 }
 .paragraphOfModal {
   position: relative;
   z-index: 1002;
   font-size: 1.2rem;
   padding: 1rem;
+  color: #000;
+  height: 200px;
+  overflow-y: scroll;
 }
 .btnWrapper {
   position: relative;
@@ -58,4 +62,12 @@
   border-radius: 1rem;
   width: 150px;
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  color: #000;
+  background-color: #ddd;
 }

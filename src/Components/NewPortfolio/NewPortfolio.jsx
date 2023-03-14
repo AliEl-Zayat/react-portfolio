@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
-const NewPortfolio = () => {
+const NewPortfolio = ({ setIsVisibile }) => {
   const {
     main,
     blackbg,
@@ -26,7 +26,14 @@ const NewPortfolio = () => {
           <a href="https://zayat.me/" className={btn}>
             Go !
           </a>
-          <button className={btn}>Remind me later</button>
+          <button
+            className={btn}
+            onClick={() => {
+              setIsVisibile(false);
+            }}
+          >
+            Remind me later
+          </button>
         </div>
       </div>
     </div>

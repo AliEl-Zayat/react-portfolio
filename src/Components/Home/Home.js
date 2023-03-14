@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import LandingBG from "./Images/header-bg.jpg";
 import "./Home.css";
 import {
@@ -12,9 +12,11 @@ import { Container } from "@mui/system";
 import { TypeAnimation } from "react-type-animation";
 import NewPortfolio from "../NewPortfolio/NewPortfolio";
 const Home = () => {
+  const [isVisibile, setIsVisibile] = useState(true);
+
   return (
     <>
-      <NewPortfolio />
+      {isVisibile && <NewPortfolio setIsVisibile={setIsVisibile} />}
       <span className="overlay"></span>
       <img src={LandingBG} alt="background" className="home-background" />
       <Container className="home-content">
