@@ -20,7 +20,6 @@
 }
 .modal {
   z-index: 1001;
-
   position: relative;
   z-index: 9990;
   padding: 1rem 1.2rem;
@@ -31,7 +30,6 @@
 .headingOfModal {
   position: relative;
   z-index: 1002;
-
   font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
