@@ -10,9 +10,12 @@ import {
 } from "react-icons/fa";
 import { Container } from "@mui/system";
 import { TypeAnimation } from "react-type-animation";
+import NewPortfolio from '../NewPortfolio';
+
 const Home = () => {
   return (
     <>
+    <NewPortfolio/>
       <span className="overlay"></span>
       <img src={LandingBG} alt="background" className="home-background" />
       <Container className="home-content">
