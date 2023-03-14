@@ -7,8 +7,10 @@
   height: 100dvh;
   top: 0;
   left: 0;
+  z-index: 1000;
 }
 .blackbg {
+  z-index: 1000;
   top: 0;
   left: 0;
   position: fixed;
@@ -17,6 +19,8 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 .modal {
+  z-index: 1001;
+
   position: relative;
   z-index: 9990;
   padding: 1rem 1.2rem;
@@ -25,22 +29,31 @@
   width: 50%;
 }
 .headingOfModal {
+  position: relative;
+  z-index: 1002;
+
   font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
 }
 .paragraphOfModal {
+  position: relative;
+  z-index: 1002;
   font-size: 1.2rem;
   padding: 1rem;
 }
 .btnWrapper {
+  position: relative;
+  z-index: 1002;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
 }
 .btn {
+  position: relative;
+  z-index: 1003;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
   background: #eee;
