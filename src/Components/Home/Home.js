@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 import { Container } from "@mui/system";
 import { TypeAnimation } from "react-type-animation";
-import NewPortfolio from "../NewPortfolio";
+import NewPortfolio from "../NewPortfolio/NewPortfolio";
 const Home = () => {
   return (
     <>
